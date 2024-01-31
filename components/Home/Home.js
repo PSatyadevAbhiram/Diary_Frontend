@@ -8,7 +8,7 @@ function Home(){
     useEffect(() => {
         const fetchData = async () => {
             try{
-                const response = await fetch('http://localhost:8081/api/entries');
+                const response = await fetch('http://localhost:8080/api/entries');
                 if(!response.ok){
                     throw new Error('Something went wrong!');
                 }
@@ -43,7 +43,7 @@ function Home(){
 
 
         try{
-            const response = await fetch('http://localhost:8081/api/entries', {
+            const response = await fetch('http://localhost:8080/api/entries', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
