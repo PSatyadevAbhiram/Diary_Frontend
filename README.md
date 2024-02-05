@@ -1,3 +1,5 @@
+This project is the frontend code for your diary. To run the fullstack application, run the application using Diary_Backend repository.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
